@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         table, th, td {
+            border: 1px solid black;
+         }
+      </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibraryManagement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/b8d85dfa10.js" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+   <div class ="middle">
+    <div class ="container">
+        <header>
+            <h1><u><center>DevRev Book Circle</center></u></h1>
+        </header>
+        <nav>
+            <ul>
+                <img src="library-bookshelf-vector-free-download-14583836104gn8k.jpg" width ="10%" height="20%">
+                            <li><a href="index.html" >Home</a></li>
+                            <li><a href="about.html" >About Us</a></li>
+                            <li><a href="books.html" >Books</a></li>
+                            <li><a href="contact.html" >Contact Us</a></li>
+                <form align="right" name="form1" method="post">
+                    <label class="Pos">
+                    <input name="submit1" type="submit" id="submit1" value="SignUp/SignIn">
+                    <input name="submit2" type="submit" id="submit2" value="Log Out">
+                    </label>
+                </form>
+            </ul>
+        </nav>
+    </div>
+    <div class="search">
+        <b>Search: 
+            <input id="search" type="text" placeholder="Find Here">
+          </b>
+    </div>
+    <div>
+        <p>
+            &nbsp;
+        </p>
+    </div>
+    <div class="inner" style= "height: 500px; overflow-y: scroll;">
+        <table id="books" style="width:100%">
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Published Date</th>
+            </tr>
+            <tbody id="book">
+                    <tr>
+                        <td>Few Things Left Unsaid</td>
+                        <td>Sudeep Nagarkar</td>
+                        <td>Random House India</td>
+                        <td>2017-12-01</td>
+                    </tr>
+                    <tr>
+                        <td>The Romance</td>
+                        <td>Gillian Beer</td>
+                        <td>Routledge</td>
+                        <td>2017-07-06</td>
+                    </tr>
+                    <tr>
+                        <td>Modern Romance</td>
+                        <td>Aziz Ansari, Eric Klinenberg</td>
+                        <td>Penguin</td>
+                        <td>2015-06-16</td>
+                    </tr>
+                    <tr>
+                        <td>The Second World War</td>
+                        <td>Antony Beevor</td>
+                        <td>Hachette UK</td>
+                        <td>2012-06-07</td>
+                    </tr>
+                    <tr>
+                        <td>Globalization and War</td>
+                        <td>Tarak Barkawi</td>
+                        <td>Rowman & Littlefield Pub Incorporated</td>
+                        <td>2006-11-23</td>
+                    </tr>
+                    <tr>
+                        <td>The Changing Face of War</td>
+                        <td>Martin Van Creveld</td>
+                        <td>Presidio Press</td>
+                        <td>2008-01-04</td>
+                    </tr>
+                    <tr>
+                        <td>Peace and Conflict Studies</td>
+                        <td>David P. Barash , Charles P. Webel</td>
+                        <td>SAGE Publications</td>
+                        <td>2016-12-29</td>
+                    </tr>
+                    <tr>
+                        <td>The War that Ended Peace</td>
+                        <td>Margaret MacMillan</td>
+                        <td>Profile Books</td>
+                        <td>2013-10-17</td>
+                    </tr>
+                    <tr>
+                        <td>Gandhi's Peace Army</td>
+                        <td>Thomas Weber</td>
+                        <td>Syracuse University Press</td>
+                        <td>1996-01-01</td>
+                    </tr>
+                    <tr>
+                        <td>Education For Peace: Utopia Or Reality</td>
+                        <td>Upadhyay</td>
+                        <td>Gyan Publishing House</td>
+                        <td>2010-05-21</td>
+                    </tr>
+                    <tr>
+                        <td>Friends Til the End</td>
+                        <td>David Wild</td>
+                        <td>Raghunath Mukherji</td>
+                        <td>2005-03-11</td>
+
+                    </tr>
+                    <tr>
+                        <td>Conversations with Friends</td>
+                        <td>Sally Rooney</td>
+                        <td>Faber & Faber</td>
+                        <td>2017-05-25</td>
+                    </tr>
+                    <tr>
+                        <td>All My Friends Are Dead</td>
+                        <td>Avery Monsen</td>
+                        <td>Chronicle Books</td>
+                        <td>2013-10-01</td>
+                    </tr>
+                    <tr>
+                        <td>College Life through the Eyes of Students</td>
+                        <td>Mary Grigsby</td>
+                        <td>State University of New York Press</td>
+                        <td>2014-08-12</td>
+                    </tr>
+                    <tr>
+                        <td>Beautiful Disaster Signed Limited Edition</td>
+                        <td>Jamie McGuire</td>
+                        <td>Simon and Schuster</td>
+                        <td>2012-11-27</td>
+                    </tr>
+                    <tr>
+                        <td>Ghanta College</td>
+                        <td>Clyde D'Souza</td>
+                        <td>Random House India</td>
+                        <td>2013-09-23</td>
+                    </tr>
+                    <tr>
+                        <td>Intercollege Comparisons of Student Satisfaction with College Life</td>
+                        <td>Francis C. Gamelin</td>
+                        <td>College FundA</td>
+                        <td>1953-05-08</td>
+                    </tr>
+                    <tr>
+                        <td>Student to Student</td>
+                        <td>Paula Miller</td>
+                        <td>ReadHowYouWant.com</td>
+                        <td>2011-08-20</td>
+                    </tr>
+                    <tr>
+                        <td>THE COLLEGE LIFE</td>
+                        <td>Co Authors</td>
+                        <td>STALLIONS PUB PVT LTD</td>
+                        <td>2021-03-21</td>
+                    </tr>
+                    <tr>
+                        <td>The Picador Book of Cricket</td>
+                        <td>Ramachandra Guha</td>
+                        <td>Pan Macmillan</td>
+                        <td>2016-06-30</td>
+                    </tr>
+                    <tr>
+                        <td>Cricket Stars</td>
+                        <td>Pegasus</td>
+                        <td>Srivatsav Publications</td>
+                        <td>2016-06-03</td>
+                    </tr>
+                    <tr>
+                        <td>The Psychology of Cricket</td>
+                        <td>Stewart Cotterill</td>
+                        <td>Bennion Kearny Limited</td>
+                        <td>2013-09-21</td>
+                    </tr>
+                    <tr>
+                        <td>Men In White (pb)</td>
+                        <td>Mukul Kesavan</td>
+                        <td>Penguin Books India</td>
+                        <td>2010-06-23</td>
+                    </tr>
+                    <tr>
+                        <td>CNS Infections</td>
+                        <td>Juan Carlos García-Moncó</td>
+                        <td>Springer</td>
+                        <td>2018-01-30</td>
+                    </tr>
+                    <tr>
+                        <td>Protective and Pathological Immune Responses in the CNS</td>
+                        <td>B. Dietzschold</td>
+                        <td>Springer Science & Business Media</td>
+                        <td>2013-11-11</td>
+                    </tr>
+                    <tr>
+                        <td>Imaging Techniques of the CNS of the Neonates</td>
+                        <td>Joseph Haddad</td>
+                        <td>Springer Science & Business Media</td>
+                        <td>2012-12-06</td>
+                    </tr>
+                    <tr>
+                        <td>Database Management System (DBMS)A Practical Approach</td>
+                        <td>Rajiv Chopra</td>
+                        <td>S. Chand Publishing</td>
+                        <td>2010-01-01</td>
+                    </tr>
+                    <tr>
+                        <td>The Secret Life of Plants</td>
+                        <td>Peter Tompkins</td>
+                        <td>HarperCollins</td>
+                        <td>2018-06-12</td>
+                    </tr>
+                    <tr>
+                        <td>RHS Practical House Plant Book</td>
+                        <td>Zia Allaway</td>
+                        <td>Dorling Kindersley Ltd</td>
+                        <td>2018-03-01</td>
+                    </tr>
+                    <tr>
+                        <td>The Encyclopedia of Animals</td>
+                        <td>George McKay</td>
+                        <td>Univ of California Press</td>
+                        <td>2004-11-26</td>
+                    </tr>
+                    <tr>
+                        <td>My Big Animal Book</td>
+                        <td>Roger Priddy</td>
+                        <td>Priddy</td>
+                        <td>2011-05-19</td>
+                    </tr>
+                    <tr>
+                        <td>My First Animals</td>
+                        <td>DK</td>
+                        <td>Dorling Kindersley Ltd</td>
+                        <td>2016-03-31</td>
+                    </tr>
+                    <tr>
+                        <td>The Product Book: How to Become a Great Product Manager</td>
+                        <td>Product School</td>
+                        <td>Josh Anon</td>
+                        <td>2017-05-25</td>
+                    </tr>
+                    <tr>
+                        <td>Sainik School Class 9 Guide 2021</td>
+                        <td>Arihant Experts</td>
+                        <td>Arihant Publications India limited</td>
+                        <td>2019-04-15</td>
+                    </tr>
+                    <tr>
+                        <td>The Littlest Yak: The New Arrival</td>
+                        <td>Lu Fraser</td>
+                        <td>Simon and Schuster</td>
+                        <td>2022-09-29</td>
+                    </tr>
+                    <tr>
+                        <td>The Family Book</td>
+                        <td>Todd Parr</td>
+                        <td>Little, Brown Books for Young Readers</td>
+                        <td>2011-06-01</td>
+                    </tr>
+                    <tr>
+                        <td>We Are Family</td>
+                        <td>Patricia Hegarty</td>
+                        <td>National Geographic Books</td>
+                        <td>2022-06-07</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div> 
+<script src="books.js"></script>
+    <div class ="footer">          
+        <p>SANDESH T  |  2022  &copy;</p>          
+    </div>
+</body>
+</html>
