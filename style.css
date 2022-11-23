@@ -16,6 +16,9 @@ nav ul li{
     background-color: #192638;
     color : #6b87f9; 
 }
+a:visited {
+  color: rgb(255, 255, 255);
+}
 li{
     font-size: 18px;
     color:rgb(0, 0, 0);
@@ -38,6 +41,7 @@ nav a:hover {
  .search{
   position: fixed;
   top:150px;
+  left:600px;
   font-size: 22px;
   border: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -88,7 +92,6 @@ box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
   padding: 8px;
 }
 
-#books tr:hover {background-color: #ddd;}
 
 #books th {
   padding-top: 12px;
